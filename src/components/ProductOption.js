@@ -1,8 +1,13 @@
-import React from "react";
+import React from "react"
 
 export default function ProductOption(){
     console.log("wtf")
     return(
-    <p>hi</p>
+    <div className="productOption">
+        <div className="productOption__header">
+            <span>Gender</span>
+            <span>rating</span>
+        </div>
+    </div>
     )
 }

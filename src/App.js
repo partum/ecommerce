@@ -6,19 +6,5 @@ import ProductOption from "./components/ProductOption"
 import "./style.css"
 
 export default function App() {
-    <ProductOption/>
-   /* const card = data.map (item =>
-        {
-            return(
-                <Card 
-                    item={item}
-                />
-            )
-        })
-    return (
-        <div className="content">
-            <Header/>
-            {card}
-        </div>
-    )*/
+    return( <ProductOption/>)
 } 
