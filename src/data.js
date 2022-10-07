@@ -1,14 +1,10 @@
 export default [
     {
         id: 1,
-        country: "Northern Ireland",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Giant%27s_Causeway_%2814%29.JPG/1280px-Giant%27s_Causeway_%2814%29.JPG",
-        author: "By Chmee2",
-        authorLink: "https://commons.wikimedia.org/w/index.php?curid=9103972",
-        link: "https://www.google.com/maps/place/Giant's+Causeway/@55.2271149,-6.6473274,11z/data=!4m9!1m2!2m1!1sgiant's+causeway!3m5!1s0x48602944f4158f0f:0xf3228ca019de1fd2!8m2!3d55.2408073!4d-6.5115554!15sChBnaWFudCdzIGNhdXNld2F5WhIiEGdpYW50J3MgY2F1c2V3YXmSAQ9uYXR1cmVfcHJlc2VydmWaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUlZNbkl0VUVsbkVBRQ",
-        title: "Giant's Causeway",
-        date: "0",
-        description: "The Giant's causeway is is area in Northern Ireland made up of thousands of interlocking basalt pillars. It is the result of an ancient volcanic fissure eruption."
+        new: true,
+        gender: "women's",
+        title: "Original Universal Cotopaxi",
+        price: 60
     },
     {
         id: 2,
