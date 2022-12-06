@@ -1,10 +1,10 @@
 export default [
     {
         id: 1,
-        new: true,
+        new: false,
         gender: "women's",
-        title: "Original Universal Cotopaxi",
-        price: 60
+        title: "Original Universal",
+        price: 55
     },
     {
         id: 2,

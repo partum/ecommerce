@@ -12,10 +12,12 @@ export default function ProductOption(props){
         <div className="productOption__header">
             <h1>{props.stuff.title}</h1>
             <span>heart</span>
+            <i class="fa-regular fa-heart"></i>
         </div>
         <div className="productOption__price">
-            <div>${props.stuff.price}</div>
-            <div>4 payments of ${props.stuff.price/4} with afterpay</div>
+            <div id="price">${props.stuff.price}</div>
+            <div>4 payments of <b>${props.stuff.price/4}</b> with 
+            <img src="https://www.teva.com/on/demandware.static/Sites-TEVA-US-Site/-/default/dwcd616875/images/afterpay-logo.png" alt="afterpay logo"></img></div>
             <div>special offer</div>
         </div>
         <div className="productOption__options">
