@@ -24,9 +24,23 @@ export default function ProductOption(props){
             maybe this should be it's own thing???
         </div>
         <div className="productOption__size">
-            sizes, also chart link
+            <p>US Size:</p>
+            <div className="sizes">
+                <button>5</button>
+                <button>6</button>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button>10</button>
+                <button>11</button>
+                <button>12</button>
+            </div>
+            <button>📏Size Chart</button>
         </div>
-        <button>Add To Cart</button>
+        <button className="checkout-button yellow-button">ADD TO CART</button>
+        <button className="checkout-button">Pay now with 
+        <img src="https://www.teva.com/on/demandware.static/Sites-TEVA-US-Site/-/default/dwcd616875/images/afterpay-logo.png" alt="afterpay logo"></img>
+        </button>
     </div>
     )
 }

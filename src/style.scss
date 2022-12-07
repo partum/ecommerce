@@ -1,30 +1,65 @@
-body{
+body {
     font-family: proxima-nova, sans-serif;
     margin: 0;
-}
-.productOption{
-h1{
-    font-size: 26px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-&__price{
-    #price{
-       font-size: 20px;
-       font-weight: 700; 
+    .checkout-button{
+        width: 100%;
+        background-color: white;
+        border: solid black 2px;
+        font-size: 15px;
+        height: 40px;
+        margin-bottom: 5px;
+        img {
+            height: 15px;
+        }
     }
-    img{
-        height: 15px;
+    .yellow-button{
+        background-color: rgb(194, 151, 33);
+        border-color: rgb(194, 151, 33);
     }
 }
+
+.productOption {
+    h1 {
+        font-size: 26px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    &__price {
+        #price {
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        img {
+            height: 15px;
+        }
+    }
+
+    &__size {
+        .sizes button {
+            border: solid rgb(206, 202, 202) 1px;
+            background-color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            margin-right: 5px;
+            font-size: 12px;
+
+            &:hover {
+                border-color: black;
+            }
+        }
+    }
+    
 }
-.pencilBanner{
+
+.pencilBanner {
     background-color: antiquewhite;
     text-transform: uppercase;
     font-size: 15px;
     font-weight: 400;
-    height:40px;
+    height: 40px;
     display: flex;
     align-items: center;
     padding: 0 80px;
