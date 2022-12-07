@@ -1,4 +1,5 @@
 import React from "react"
+import SizeButton from "./SizeButton"
 
 export default function ProductOption(props){
     //console.log(props.stuff.title)
@@ -26,14 +27,7 @@ export default function ProductOption(props){
         <div className="productOption__size">
             <p>US Size:</p>
             <div className="sizes">
-                <button>5</button>
-                <button>6</button>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>10</button>
-                <button>11</button>
-                <button>12</button>
+                {Array(8).fill(true).map((_, i) => <SizeButton number={i + 5}/>)} 
             </div>
             <button>📏Size Chart</button>
         </div>
