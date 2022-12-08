@@ -1,5 +1,6 @@
 import React from "react"
 import SizeButton from "./SizeButton"
+import ColorButton from "./ColorButton"
 
 export default function ProductOption(props){
     //console.log(props.stuff.title)
@@ -22,7 +23,8 @@ export default function ProductOption(props){
             <div>special offer</div>
         </div>
         <div className="productOption__options">
-            maybe this should be it's own thing???
+            <p id="colorOption">COLOR SELECTED</p>
+            {props.stuff.colorInfo.map((elem) => <ColorButton number={elem}/>)}
         </div>
         <div className="productOption__size">
             <p>US Size:</p>

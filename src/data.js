@@ -4,7 +4,25 @@ export default [
         new: false,
         gender: "women's",
         title: "Original Universal",
-        price: 55
+        price: 55,
+        colorInfo: [
+            {
+                id: 0,
+                color: "balance starfish"
+            },
+            {
+                id: 1,
+                color: "balance black"
+            },
+            {
+                id: 2,
+                color: "sand dune"
+            },
+            {
+                id: 3,
+                color: "mirage multi"
+            }
+        ]
     },
     {
         id: 2,
