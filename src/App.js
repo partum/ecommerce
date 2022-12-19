@@ -1,4 +1,5 @@
 import React from "react"
+import Accordion from "./components/Accordion"
 import PencilBanner from "./components/PencilBanner"
 import ProductCarousel from "./components/ProductCarousel"
 import ProductOption from "./components/ProductOption"
@@ -13,6 +14,7 @@ export default function App() {
             <ProductCarousel/>
             <ProductOption stuff={data[0]}/>
         </div>
+        <Accordion title={"Features and benefits"}/>
     </div>
     )
 } 
