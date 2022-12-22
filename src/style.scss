@@ -78,6 +78,22 @@ body {
 }
 
 .accordion{
+    margin: 0 50px;
+    &.accordion__open{
+        .accordion__content{
+            display: block;
+           
+        }
+    }
+    &.accordion__closed{
+        .accordion__header img{
+            transform: rotate(45deg);
+        }
+        .accordion__content{
+            display: none;
+           
+        }
+    }
     &__header{
         display: flex;
         flex-direction: row;

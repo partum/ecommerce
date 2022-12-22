@@ -15,6 +15,7 @@ export default function App() {
             <ProductOption stuff={data[0]}/>
         </div>
         <Accordion title={"Features and benefits"}/>
+        <Accordion title={"original universal"}/>
     </div>
     )
 } 
